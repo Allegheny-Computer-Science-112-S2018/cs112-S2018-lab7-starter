@@ -36,16 +36,7 @@ public class Experiment {
 
   /** Run the iterative experiment. */
   public static void runIterativeExperiment() {
-    RunCampaign runComputationCampaign = new RunCampaign();
-    // Create a IterativeFibonacciComputation and run it in a campaign
-    IterativeFibonacciComputation iterativeFibonacci = new IterativeFibonacciComputation();
-    ResultsTable iterativeFibonacciResultsTable =
-        runComputationCampaign.run(iterativeFibonacci, ITERATIVE_FIBONACCI_CAMPAIGN_LENGTH);
-    System.out.println();
-    System.out.println("Results of an experiment campaign with "
-                       + iterativeFibonacci.getName() + ":\n");
-    System.out.println(iterativeFibonacciResultsTable.toString());
-    System.out.println();
+    // TODO: Add in the implementation of the iterative experiment
   }
 
   /** Run the experiment campaigns for a different number of rounds. */
